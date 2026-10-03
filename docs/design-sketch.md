@@ -29,7 +29,7 @@ the vibration motor repurposed as an **output** channel for job state. The pad d
 drive Galaxy's DOM; it drives Galaxy's REST API through a purpose-built, controller-native
 front end, with a deep link back into the real web UI for anything the pad is bad at.
 
-![Controller map and system architecture]({{artifact:art_1c5f0fc6-8b31-4211-8f3d-fe29f4beffd9}})
+![Controller map and system architecture](architecture-sketch.png)
 
 ---
 
