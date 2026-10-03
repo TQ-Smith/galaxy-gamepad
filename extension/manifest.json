@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Galaxy Gamepad",
+  "version": "0.1.0",
+  "description": "Operate the Galaxy web interface with a game controller.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://usegalaxy.org/*",
+        "https://galaxy-main.usegalaxy.org/*"
+      ],
+      "js": ["galaxy-gamepad.user.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

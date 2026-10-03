@@ -1,0 +1,8 @@
+{
+  "name": "galaxy-gamepad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Operate the Galaxy web interface with a game controller.",
+  "scripts": { "test": "node tests/test_userscript.mjs" },
+  "devDependencies": { "jsdom": "^28.0.0" }
+}
